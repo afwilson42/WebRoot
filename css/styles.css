@@ -1,0 +1,28 @@
+
+
+body {
+    color: CornflowerBlue;
+    font-family: sans-serif !important;
+}
+
+#intro {
+    word-wrap: break-word;
+    height: 100px;
+    width: 25%;
+    color: dodgerblue;
+}
+
+#name {
+    position: absolute;
+    left: 70px;
+    top: 90px;
+}
+
+#image {
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+h1 {
+    color: DarkBlue;
+}
