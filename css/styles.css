@@ -3,6 +3,7 @@
 body {
     color: CornflowerBlue;
     font-family: sans-serif !important;
+    background-color: lightyellow;
 }
 
 #intro {
@@ -25,4 +26,17 @@ body {
 
 h1 {
     color: DarkBlue;
+}
+
+#reviews {
+    color: cornflowerblue;
+    height: 100px;
+    width: 25%;
+    word-wrap: break-word;
+}
+
+
+
+a{
+    color: darkblue;
 }
