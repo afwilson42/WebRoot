@@ -8,62 +8,70 @@
   <meta name="keywords" content="">
   <meta name="author" content="Andrew Wilson">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css" /> 
 
 </head>
-<body>
+<body id="mainbody">
 
-  <h1>Web Resources</h1>
+  <h1 id="pageStart">Web Resources</h1>
 
   <p class="foo">
-  <a href="#a">Generic Sensor APIs</a> | 
-  <a href="#b">Mozilla Sensor APIs</a> | 
-  <a href="#c">Javascript Sensor APIs</a> |
-  <a href="#d">Apple Dev Sensor Overview</a> |
-  <a href="../index.html">Main</a>
+  <a href="#a" class="link">Generic Sensor APIs</a> | 
+  <a href="#b" class="link">Mozilla Sensor APIs</a> | 
+  <a href="#c" class="link">Javascript Sensor APIs</a> |
+  <a href="#d" class="link">Apple Dev Sensor Overview</a> |
+  <a href="../index.html" class="link">Main</a>
   </p>
 
 
-  <div id="reviews">
-    <ol>
+  <div id="reviews" class="container-fluid" >
+    <div class="row" >
+      <div class="col-sm-20">
+        <ol class="list-group">
 
-      <li>
-        <p id="a">
-        <a href="https://mobiforge.com/design-development/the-generic-sensor-api" class="LinkTitle">Generic Sensor API</a><br />
-        A website introducing a new Generic API to use with web apps for accessing sensors & collecting data from them. Provides overivew, samples of code to use for each sensor type,
-          and links to sites for great details of API, and of each sensor API<br />
-        Rating: 5 out of 5
-        </p>
-      </li>
+          <li class="list-group-item">
+            <p id="a">
+            <a href="https://mobiforge.com/design-development/the-generic-sensor-api" class="LinkTitle">Generic Sensor API</a><br />
+            A website introducing a new Generic API to use with web apps for accessing sensors & collecting data from them. Provides overivew, samples of code to use for each sensor type,
+              and links to sites for great details of API, and of each sensor API<br />
+            Rating: 5 out of 5
+            </p>
+          </li>
 
-      <li>
-        <p id="b">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs" class="LinkTitle">MDN Web Docs on Sensor APIs </a><br />
-        The Mozilla Developer Network web documents that cover Sensor API concents and Usage. Includes code samples for sensor detection/existance, permissions prompts on device, readings
-        , Interfaces, Specifications, and Browser compatibility chart. Links to specifics of each sensor type are given as well. An excellent overview <br />
-        Rating: 5 out of 5
-        </p>
+          <li class="list-group-item">
+            <p id="b">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs" class="LinkTitle">MDN Web Docs on Sensor APIs </a><br />
+            The Mozilla Developer Network web documents that cover Sensor API concents and Usage. Includes code samples for sensor detection/existance, permissions prompts on device, readings
+            , Interfaces, Specifications, and Browser compatibility chart. Links to specifics of each sensor type are given as well. An excellent overview <br />
+            Rating: 5 out of 5
+            </p>
 
-      </li>
+          </li>
 
-      <li>
-        <p id="c">
-        <a href="http://www.webondevices.com/9-javascript-apis-accessing-device-sensors/" class="LinkTitle">Javascript APIs for sensors</a><br />
-        Wrbsite covers some basics of javascript APIs for 9 sensors. Has code samples, but doesnt go in depth or provide links to sites with more information. <br />
-        Rating: 4 out of 5
-        </p>
-      </li>
+          <li class="list-group-item">
+            <p id="c">
+            <a href="http://www.webondevices.com/9-javascript-apis-accessing-device-sensors/" class="LinkTitle">Javascript APIs for sensors</a><br />
+            Website covers some basics of javascript APIs for 9 sensors. Has code samples, but doesnt go in depth or provide links to sites with more information. <br />
+            Rating: 4 out of 5
+            </p>
+          </li>
 
-      <li>
-          <p id="d">
-          <a href="https://developer.apple.com/documentation/coremotion" class="LinkTitle">Apple Developer site for sensors overview</a><br />
-          Covers the Apple Dev classes in the Core Motion framework for iPhone sensors. Very high level, and it doesnt indicate if these apply to web, Objective C, or Swift.
-          Good for overview, but doesnt give specific aid for web app programming<br />
-          Rating: 2 out of 5
-          </p>
-      </li>
+          <li class="list-group-item">
+              <p id="d">
+              <a href="https://developer.apple.com/documentation/coremotion" class="LinkTitle">Apple Developer site for sensors overview</a><br />
+              Covers the Apple Dev classes in the Core Motion framework for iPhone sensors. Very high level, and it doesnt indicate if these apply to web, Objective C, or Swift.
+              Good for overview, but doesnt give specific aid for web app programming<br />
+              Rating: 2 out of 5
+              </p>
+          </li>
 
-    </ol>
+        </ol>
+      </div>
+    </div>
   </div>
 </body>
 </html>
