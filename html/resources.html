@@ -2,7 +2,7 @@
 <head>
 <title>Device Resources</title>
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+
 
   <meta name="description" content="Page with list of Sensor API web pages, and brief review">
   <meta name="keywords" content="">
@@ -12,28 +12,28 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css" /> 
+  <link href="../css/styles.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body id="mainbody">
 
   <h1 id="pageStart">Web Resources</h1>
-
-  <p class="foo">
-  <a href="#a" class="link">Generic Sensor APIs</a> | 
-  <a href="#b" class="link">Mozilla Sensor APIs</a> | 
-  <a href="#c" class="link">Javascript Sensor APIs</a> |
-  <a href="#d" class="link">Apple Dev Sensor Overview</a> |
-  <a href="../index.html" class="link">Main</a>
-  </p>
-
+  <div>
+    <p class="foo">
+      <a href="#a">Generic Sensor APIs</a> | 
+      <a href="#b">Mozilla Sensor APIs</a> | 
+      <a href="#c">Javascript Sensor APIs</a> |
+      <a href="#d">Apple Dev Sensor Overview</a> |
+      <a href="../index.html">Main</a>
+    </p>
+  </div>
 
   <div id="reviews" class="container-fluid" >
     <div class="row" >
       <div class="col-sm-20">
-        <ol class="list-group">
+        <ol>
 
-          <li class="list-group-item">
+          <li>
             <p id="a">
             <a href="https://mobiforge.com/design-development/the-generic-sensor-api" class="LinkTitle">Generic Sensor API</a><br />
             A website introducing a new Generic API to use with web apps for accessing sensors & collecting data from them. Provides overivew, samples of code to use for each sensor type,
@@ -42,7 +42,7 @@
             </p>
           </li>
 
-          <li class="list-group-item">
+          <li>
             <p id="b">
             <a href="https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs" class="LinkTitle">MDN Web Docs on Sensor APIs </a><br />
             The Mozilla Developer Network web documents that cover Sensor API concents and Usage. Includes code samples for sensor detection/existance, permissions prompts on device, readings
@@ -52,7 +52,7 @@
 
           </li>
 
-          <li class="list-group-item">
+          <li>
             <p id="c">
             <a href="http://www.webondevices.com/9-javascript-apis-accessing-device-sensors/" class="LinkTitle">Javascript APIs for sensors</a><br />
             Website covers some basics of javascript APIs for 9 sensors. Has code samples, but doesnt go in depth or provide links to sites with more information. <br />
@@ -60,7 +60,7 @@
             </p>
           </li>
 
-          <li class="list-group-item">
+          <li>
               <p id="d">
               <a href="https://developer.apple.com/documentation/coremotion" class="LinkTitle">Apple Developer site for sensors overview</a><br />
               Covers the Apple Dev classes in the Core Motion framework for iPhone sensors. Very high level, and it doesnt indicate if these apply to web, Objective C, or Swift.
